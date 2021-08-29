@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #232323;
+}
+/*############# Barre de Naviguation #################################*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 90vw;
+  margin: 0 auto;
+}
+nav p {
+  font-size: 1.125em;
+  text-transform: capitalize;
+}
+nav a {
+  text-decoration: none;
+  color: #232323;
+}
+nav a:hover {
+  border-bottom: 2px solid #232323;
+}
+nav p:nth-child(1) {
+  margin-right: auto;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+p.nav-left {
+  margin-left: 2.5rem;
+}
+
+/*############### Sections ###########################*/
+
+section.part1 {
+  width: 90vw;
+  margin: 3rem auto;
+  display: flex;
+  align-items: last baseline;
+  font-size: 1em;
+}
+.details {
+  line-height: 1.8em;
+}
+.description {
+  width: 30%;
+  margin-left: 18rem;
+}
+
+.description h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5rem;
+}
+
+section.part2 {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.25em;
+}
+.prod-img {
+  flex: 1 1 0;
+}
+section.part2 img {
+  height: 450px;
+  /* clip-path: circle(100% at 80% 90%); */
+  border-top-left-radius: 48%;
+  border-top-right-radius: 48%;
+}
+.creator {
+  flex: 2 2 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.crea-btn {
+  padding: 0.5em 0.5em;
+  border: 2px solid #232323;
+  border-radius: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 1.125em;
+  margin-right: 5rem;
+}
+span {
+  padding-left: 0.8rem;
+}
+.creator .creator-nm {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18em;
+  margin: 0;
+  height: 80vh;
+}
